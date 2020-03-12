@@ -1,0 +1,549 @@
+{
+  "id": "7c73b398-0868-4a01-95e5-e7cc26c59de6",
+  "version": "2.0",
+  "name": "Neobiome",
+  "url": "https://prova-dot-bioview-neopct.appspot.com",
+  "tests": [{
+    "id": "82cb1171-b9ca-4ea5-b1d0-37d3aab6d564",
+    "name": "Neobiome",
+    "commands": [{
+      "id": "1121927e-76af-497f-b7df-2b78cfe13199",
+      "comment": "",
+      "command": "open",
+      "target": "/dashboard?customer=PR005",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "965f2a85-cc36-4289-9bdf-f7f82803b791",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1870x1011",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8cb1e1b-e65c-4a3d-b6a7-c6ceb228eee1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused font > font",
+      "targets": [
+        ["css=.cdk-focused font > font", "css:finder"],
+        ["xpath=//a[4]/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c9b24b0-f68a-412d-8a24-3f201661bad3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-fab",
+      "targets": [
+        ["css=.mat-fab", "css:finder"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'adicionar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5934769-91ec-457c-a83f-1d98eab3bf16",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-fab",
+      "targets": [
+        ["css=.mat-fab", "css:finder"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'adicionar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c0785e0-ded1-4c9a-88df-2643bc799207",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-fab .mat-icon > font",
+      "targets": [
+        ["css=.mat-fab .mat-icon > font", "css:finder"],
+        ["xpath=//div[2]/div[2]/button/span/mat-icon/font", "xpath:position"],
+        ["xpath=//font[contains(.,'adicionar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a21b006-1aad-4717-8fef-3aeed19e15f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-fab .mat-icon > font",
+      "targets": [
+        ["css=.mat-fab .mat-icon > font", "css:finder"],
+        ["xpath=//div[2]/div[2]/button/span/mat-icon/font", "xpath:position"],
+        ["xpath=//font[contains(.,'adicionar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68727c89-0b24-47cd-898b-feb1870ebcde",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-fab .mat-icon > font",
+      "targets": [
+        ["css=.mat-fab .mat-icon > font", "css:finder"],
+        ["xpath=//div[2]/div[2]/button/span/mat-icon/font", "xpath:position"],
+        ["xpath=//font[contains(.,'adicionar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "197b9a22-0ae4-4c87-8f15-16b8c4129602",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-step-content-0-0']/mat-dialog-content/form/div/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbb1a92f-47df-4fb8-8a30-a0f4913fc85d",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-step-content-0-0']/mat-dialog-content/form/div/mat-form-field/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/mat-form-field/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Lactos56767"
+    }, {
+      "id": "bfe7b3b5-f2e7-4c17-b5b2-988e49713e7d",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//textarea[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-step-content-0-0']/mat-dialog-content/form/div/mat-form-field[2]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e5aa5ac-0f31-442d-aa01-5246eece17b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//textarea[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-step-content-0-0']/mat-dialog-content/form/div/mat-form-field[2]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "listar bacilus"
+    }, {
+      "id": "34af1d3e-2822-4108-8790-527fd801a03f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused font > font",
+      "targets": [
+        ["css=.cdk-focused font > font", "css:finder"],
+        ["xpath=//div[@id='cdk-step-content-0-0']/mat-dialog-actions/span/button[2]/span/font/font", "xpath:idRelative"],
+        ["xpath=//span/button[2]/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba9ea5d7-f9d0-4544-bf3d-fb137eaf0dfe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-fab-bottom-right",
+      "targets": [
+        ["css=.mat-fab-bottom-right", "css:finder"],
+        ["xpath=//div[@id='cdk-step-content-0-1']/mat-dialog-content/mat-card/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63839d11-a869-492e-8032-39a7900e454c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-fab-bottom-right",
+      "targets": [
+        ["css=.mat-fab-bottom-right", "css:finder"],
+        ["xpath=//div[@id='cdk-step-content-0-1']/mat-dialog-content/mat-card/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "974bdd12-4eb0-4ab2-a79d-7d8f3ef09516",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-fab-bottom-right font > font",
+      "targets": [
+        ["css=.mat-fab-bottom-right font > font", "css:finder"],
+        ["xpath=//div[@id='cdk-step-content-0-1']/mat-dialog-content/mat-card/div[3]/div[2]/button/span/mat-icon/font/font", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button/span/mat-icon/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23d2a22c-df00-45da-905f-88f167d2915e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-fab-bottom-right font > font",
+      "targets": [
+        ["css=.mat-fab-bottom-right font > font", "css:finder"],
+        ["xpath=//div[@id='cdk-step-content-0-1']/mat-dialog-content/mat-card/div[3]/div[2]/button/span/mat-icon/font/font", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button/span/mat-icon/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66905a5b-d1ca-4528-a917-d2ccb520e6f9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-fab-bottom-right font > font",
+      "targets": [
+        ["css=.mat-fab-bottom-right font > font", "css:finder"],
+        ["xpath=//div[@id='cdk-step-content-0-1']/mat-dialog-content/mat-card/div[3]/div[2]/button/span/mat-icon/font/font", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button/span/mat-icon/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db9a1dbe-c994-4ce9-a142-a7f2e7b815a4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(3) > .cdk-column-add > .mat-icon-button",
+      "targets": [
+        ["css=.mat-row:nth-child(3) > .cdk-column-add > .mat-icon-button", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[2]/mat-cell[3]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[2]/mat-cell[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fd4406a-667a-4329-b323-8e649e0a38fe",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-row:nth-child(3) > .cdk-column-add > .mat-icon-button",
+      "targets": [
+        ["css=.mat-row:nth-child(3) > .cdk-column-add > .mat-icon-button", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[2]/mat-cell[3]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[2]/mat-cell[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44ed0eec-bc18-4b63-bb4d-40d6a4cb5ef4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(3) .mat-icon > font",
+      "targets": [
+        ["css=.mat-row:nth-child(3) .mat-icon > font", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[2]/mat-cell[3]/button/span/mat-icon/font", "xpath:idRelative"],
+        ["xpath=//mat-row[2]/mat-cell[3]/button/span/mat-icon/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c087a17e-8afa-4020-bd94-7745634c3fec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused .mat-icon > font",
+      "targets": [
+        ["css=.cdk-focused .mat-icon > font", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[2]/mat-cell[3]/button/span/mat-icon/font", "xpath:idRelative"],
+        ["xpath=//mat-row[2]/mat-cell[3]/button/span/mat-icon/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "687ef3a1-3693-41a8-8dd1-614dc57bff1f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused .mat-icon > font",
+      "targets": [
+        ["css=.cdk-focused .mat-icon > font", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[2]/mat-cell[3]/button/span/mat-icon/font", "xpath:idRelative"],
+        ["xpath=//mat-row[2]/mat-cell[3]/button/span/mat-icon/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3f985cc-293c-467c-8283-fa0b6d690acc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-2 .mat-select-value",
+      "targets": [
+        ["css=#mat-select-2 .mat-select-value", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-2']/div/div", "xpath:idRelative"],
+        ["xpath=//form/mat-form-field/div/div/div/mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95cfc192-cb62-410e-8e0d-34a497af8ed0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27cd7189-0be9-4cf1-bdc4-9334551c8ceb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-13 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-13 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-13']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Família')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca246d42-323e-4e42-a901-7879ef14cf08",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(3) > .cdk-column-add > .mat-icon-button",
+      "targets": [
+        ["css=.mat-row:nth-child(3) > .cdk-column-add > .mat-icon-button", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[2]/mat-cell[3]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[2]/mat-cell[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e4dbf66-7e1c-4277-a69f-b4f836d8baa0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-row:nth-child(3) > .cdk-column-add > .mat-icon-button",
+      "targets": [
+        ["css=.mat-row:nth-child(3) > .cdk-column-add > .mat-icon-button", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[2]/mat-cell[3]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[2]/mat-cell[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e7366b9-5803-4634-8c33-0b50941e2572",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(4) > .cdk-column-add > .mat-icon-button",
+      "targets": [
+        ["css=.mat-row:nth-child(4) > .cdk-column-add > .mat-icon-button", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[3]/mat-cell[3]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[3]/mat-cell[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf462df5-af29-44b6-9c28-ca89df8a2067",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-row:nth-child(4) > .cdk-column-add > .mat-icon-button",
+      "targets": [
+        ["css=.mat-row:nth-child(4) > .cdk-column-add > .mat-icon-button", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[3]/mat-cell[3]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[3]/mat-cell[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f2c9f48-b80c-457c-91b2-6daa419f29a1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(5) .mat-icon > font",
+      "targets": [
+        ["css=.mat-row:nth-child(5) .mat-icon > font", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[4]/mat-cell[3]/button/span/mat-icon/font", "xpath:idRelative"],
+        ["xpath=//mat-row[4]/mat-cell[3]/button/span/mat-icon/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff145da2-ec00-434e-a7eb-647ba832fbe0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-row:nth-child(5) .mat-icon > font",
+      "targets": [
+        ["css=.mat-row:nth-child(5) .mat-icon > font", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[4]/mat-cell[3]/button/span/mat-icon/font", "xpath:idRelative"],
+        ["xpath=//mat-row[4]/mat-cell[3]/button/span/mat-icon/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5f0c349-0ab2-41e9-bc26-a8fc379349cd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(5) .mat-icon-button font > font",
+      "targets": [
+        ["css=.mat-row:nth-child(5) .mat-icon-button font > font", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[4]/mat-cell[3]/button/span/mat-icon/font/font", "xpath:idRelative"],
+        ["xpath=//mat-row[4]/mat-cell[3]/button/span/mat-icon/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93e3cdaa-3cf9-4234-89f9-16dd24c7dda3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused font > font",
+      "targets": [
+        ["css=.cdk-focused font > font", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[4]/mat-cell[3]/button/span/mat-icon/font/font", "xpath:idRelative"],
+        ["xpath=//mat-row[4]/mat-cell[3]/button/span/mat-icon/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cea01d03-cffb-44ab-acd5-42cf8156a9d5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdk-focused font > font",
+      "targets": [
+        ["css=.cdk-focused font > font", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[4]/mat-cell[3]/button/span/mat-icon/font/font", "xpath:idRelative"],
+        ["xpath=//mat-row[4]/mat-cell[3]/button/span/mat-icon/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47182f7c-c2af-466a-a017-a683bb543e31",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(4) > .cdk-column-add > .mat-icon-button",
+      "targets": [
+        ["css=.mat-row:nth-child(4) > .cdk-column-add > .mat-icon-button", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[3]/mat-cell[3]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[3]/mat-cell[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b43d8b7-89c1-499e-8ba2-5f4089d3d2fa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-row:nth-child(4) > .cdk-column-add > .mat-icon-button",
+      "targets": [
+        ["css=.mat-row:nth-child(4) > .cdk-column-add > .mat-icon-button", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row[3]/mat-cell[3]/button", "xpath:idRelative"],
+        ["xpath=//mat-row[3]/mat-cell[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7367a08-3088-4caf-8b73-fd42959c7c48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c14-31 .mat-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c14-31 .mat-form-field-infix", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/form/mat-form-field/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/mat-form-field/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "133efe8a-ad51-4baf-86c7-8a06aded734d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-11 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-11 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-11']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Classe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "493dd51e-4ac7-4be9-973d-3528f53a04e8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(2) > .cdk-column-add > .mat-icon-button",
+      "targets": [
+        ["css=.mat-row:nth-child(2) > .cdk-column-add > .mat-icon-button", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row/mat-cell[3]/button", "xpath:idRelative"],
+        ["xpath=//mat-cell[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cfab717-50d3-4c81-8bf7-5014665fb331",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-row:nth-child(2) > .cdk-column-add > .mat-icon-button",
+      "targets": [
+        ["css=.mat-row:nth-child(2) > .cdk-column-add > .mat-icon-button", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row/mat-cell[3]/button", "xpath:idRelative"],
+        ["xpath=//mat-cell[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7760e959-1b2a-4d22-aad2-aef526356fb4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(2) .mat-icon-button font > font",
+      "targets": [
+        ["css=.mat-row:nth-child(2) .mat-icon-button font > font", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row/mat-cell[3]/button/span/mat-icon/font/font", "xpath:idRelative"],
+        ["xpath=//mat-cell[3]/button/span/mat-icon/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a814d347-34f6-4663-8b28-107759a60034",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-row:nth-child(2) .mat-icon-button font > font",
+      "targets": [
+        ["css=.mat-row:nth-child(2) .mat-icon-button font > font", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row/mat-cell[3]/button/span/mat-icon/font/font", "xpath:idRelative"],
+        ["xpath=//mat-cell[3]/button/span/mat-icon/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c547420e-5fb6-410a-8890-297e9c04e81c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused .mat-icon",
+      "targets": [
+        ["css=.cdk-focused .mat-icon", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/div/div/div/mat-card/mat-card-content/div/div/mat-table/mat-row/mat-cell[3]/button/span/mat-icon", "xpath:idRelative"],
+        ["xpath=//mat-cell[3]/button/span/mat-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d78a11c-a5e5-4e60-b064-0c668515be8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused",
+      "targets": [
+        ["css=.cdk-focused", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-filter-taxonomy-edit-dialog/div/mat-dialog-actions/span/button[2]", "xpath:idRelative"],
+        ["xpath=//app-filter-taxonomy-edit-dialog/div/mat-dialog-actions/span/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e772c306-1000-4d50-b207-8d4b4f80b66f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-green:nth-child(3)",
+      "targets": [
+        ["css=.btn-green:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-step-content-0-1']/mat-dialog-actions/span/button[3]", "xpath:idRelative"],
+        ["xpath=//span/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f419bb4f-542f-4e77-bd26-33fec56639db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused font > font",
+      "targets": [
+        ["css=.cdk-focused font > font", "css:finder"],
+        ["xpath=//div[@id='cdk-step-content-0-1']/mat-dialog-actions/span/button[3]/span/font/font", "xpath:idRelative"],
+        ["xpath=//button[3]/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71c9b7cb-e6ed-485a-b9f4-07b95e2d8fe4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-row:nth-child(4) .contrast-default-color font > font",
+      "targets": [
+        ["css=.mat-row:nth-child(4) .contrast-default-color font > font", "css:finder"],
+        ["xpath=//div[@id='cdk-step-content-0-1']/mat-dialog-content/mat-card/div/mat-table/mat-row[3]/mat-cell[4]/button/span/mat-icon/font/font", "xpath:idRelative"],
+        ["xpath=//mat-row[3]/mat-cell[4]/button/span/mat-icon/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "82e18faf-d207-4cfe-909c-c9f5bb05c80d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["82cb1171-b9ca-4ea5-b1d0-37d3aab6d564"]
+  }],
+  "urls": ["https://prova-dot-bioview-neopct.appspot.com/"],
+  "plugins": []
+}
